@@ -225,12 +225,13 @@ ul ::marker {
   font-family: Arial, Helvetica, sans-serif;
   font-size: 20px;
   color: #3f2aff;
-  width: 400;
+  width: 400px;
 }
 
 .list__modules {
   padding-left: 0;
   margin: 0;
+  font-size: 0;
 }
 
 .h1-title__modules {
@@ -239,19 +240,15 @@ ul ::marker {
   font-family: Arial, Helvetica, sans-serif;
   font-size: 60px;
   color: #3f2aff;
-  width: 700;
-}
-
-.carts__module {
-  width: 1144px;
-  height: 1010px;
-  font-size: 0;
+  width: 700px;
 }
 
 .items__modules {
   display: inline-block;
   width: 572px;
   height: 325px;
+  vertical-align: top;
+  font-size: 20px;
 }
 
 .img__modules {
@@ -263,6 +260,7 @@ ul ::marker {
 
 .h2-title__modules {
   margin: 0;
+  font-size: 40px;
 }
 .text-items__modules{
   margin: 0;
